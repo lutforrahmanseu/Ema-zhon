@@ -1,0 +1,63 @@
+.form-container {
+  width: 500px;
+  margin: 20px auto;
+  height: 600px;
+  padding-left: 40px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgb(196, 190, 190);
+}
+.form-title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.form-control input {
+  height: 55px;
+  width: 415px;
+  border-radius: 5px;
+  border: 1px solid #95a0a7;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+.form-control label {
+  display: block;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  margin-bottom: 10px;
+}
+.btn-submit {
+  height: 55px;
+  width: 430px;
+  color: #2a414f;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background: rgba(255, 153, 0, 0.3);
+  font-size: 1.5em;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  margin-top: 20px;
+  border: none;
+}
+.btn-submit:hover {
+  color: #ffff;
+  background-color: brown;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.pera-text {
+  text-align: center;
+}
+.pera-text a {
+  text-decoration: none;
+  color: coral;
+}

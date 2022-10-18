@@ -4,6 +4,8 @@ import About from "./components/About/About";
 import Inventory from "./components/Inventory/Inventory";
 import Login from "./components/Login/Login";
 import Orders from "./components/Orders/Orders";
+import PrivateRoute from "./components/routes/PrivateRoute";
+import Shipping from "./components/Shipping/Shipping";
 import Shop from "./components/Shop/Shop";
 import SignUp from "./components/SignUp/SignUp";
 import Main from "./Layouts/Main";
@@ -29,8 +31,20 @@ function App() {
           element: <Orders></Orders>,
         },
         {
-          path: "inventory",
-          element: <Inventory></Inventory>,
+          path: "/inventory",
+          element: (
+            <PrivateRoute>
+              <Inventory></Inventory>
+            </PrivateRoute>
+          ),
+        },
+        {
+          path: "/shipping",
+          element: (
+            <PrivateRoute>
+              <Shipping></Shipping>
+            </PrivateRoute>
+          ),
         },
         {
           path: "/about",

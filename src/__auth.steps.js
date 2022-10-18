@@ -28,5 +28,7 @@ for each project onetime
 4.make sure public directory:you select build
 5.single page application yes
 5.github y/n
-
+for every deploy
+6.npm run build
+7.firebase deploy
 */

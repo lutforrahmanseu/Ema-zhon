@@ -18,3 +18,15 @@ Auth set up
 6.get form data
 7.getAuth in the UserContext
 */
+/*
+FIREBASE HOSTING
+one time for each computer
+1.npm install -g firebase-tools
+2.firebase login
+for each project onetime
+3.firebase init
+4.make sure public directory:you select build
+5.single page application yes
+5.github y/n
+
+*/

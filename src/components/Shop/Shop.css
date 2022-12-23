@@ -8,8 +8,35 @@
   gap: 45px;
   margin: 100px 50px;
 }
+
 .cart-container {
   background-color: rgba(255, 153, 0, 0.3);
+}
+.pagination {
+  margin-left: 550px;
+  margin-bottom: 50px;
+}
+.pagination button {
+  margin-right: 10px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkgray;
+  color: white;
+}
+.pagination .selected {
+  background-color: goldenrod;
+  border: gold;
+  font-weight: bold;
+  padding: 5px;
+}
+.selectOption {
+  margin-right: 10px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: aquamarine;
+  color: blueviolet;
 }
 @media screen and (max-width: 1100px) {
   .products-container {
